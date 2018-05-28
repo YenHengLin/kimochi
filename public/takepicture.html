@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>send mail</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/takepicture.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        
+    </head>
+    
+    <body>
+    <div id="picture_space" style="display:inline">
+        <div id="video_space">
+            <video id="video" autoplay></video>
+            <canvas id="canvas1"></canvas>
+        </div>
+        
+        <button id="button1">拍照</button>
+        <button id="button2">重拍</button>
+        <button id="button4">好了</button>
+    </div>
+    <div id="send_email">
+        <div id="Kcontent">
+            <canvas id="canvas2" width="150" height="150"></canvas>
+            <textarea id="inputtext" spellcheck="false"></textarea>
+        </div>
+        <div id="bottom_space">
+            <button id="button3">發送</button>
+            <h id="success1"></h>
+        </div>
+          
+    </div>         
+    <script src="js/takepicture.js"></script>
+    </body>
+   
+</html>

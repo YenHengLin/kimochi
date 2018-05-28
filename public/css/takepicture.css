@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+div#picture_space{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+  }
+#video_space{
+    margin-top:15%;
+    width:100vw;
+    height:100vw;
+    background:black;
+}  
+video{
+    background: #222;
+   
+    height:100%
+
+    
+}
+#canvas1{
+    display:none;
+    width:100%;
+    height:100%;
+}
+#button1{
+    z-index: 1;
+    position: fixed;
+    bottom: 0vh;
+    left: 45vw;
+    margin:0 auto;
+}
+#button2{
+    position :fixed;
+    left: 0;
+    top: 0;
+}
+#button4{
+    position:fixed;
+    right:0;
+    top:0;
+}
+#send_email{
+    background-color: white;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    display:none;
+   
+}
+
+
+
+#Kcontent{
+    position: relative;
+    width:100%;
+    height:40%;
+    top:0;
+    left:0;
+}
+#canvas2{
+    position:absolute;
+    left:2%
+}
+#inputtext{
+    position:absolute;
+    right:0px; 
+    width: 55%;
+    height: 100%; 
+ }
+#bottom_space{
+    bottom: 0;
+    height:20%
+}
+#button3{
+    position:relative;
+    top:10px;
+    margin:0 auto;
+    z-index: 2;
+   
+}
+#success1{
+    position:relative;
+}
